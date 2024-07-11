@@ -1,0 +1,6 @@
+framework module Pods_ARTreckingDemoTests {
+  umbrella header "Pods-ARTreckingDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

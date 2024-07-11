@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A51B7144C6500DEE267747B /* Pods_ARTreckingDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8132CFB5CE9D9D12C993B3 /* Pods_ARTreckingDemo.framework */; };
+		77E313A8F90A74E912BF49DC /* Pods_ARTreckingDemo_ARTreckingDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4637A9C9505EA80A6BB3CB6 /* Pods_ARTreckingDemo_ARTreckingDemoUITests.framework */; };
+		97C9E23FCF27A45637597EFD /* Pods_ARTreckingDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639C9A1655F06CCB5AB224CC /* Pods_ARTreckingDemoTests.framework */; };
 		BD55DFCD2C4046B100C32142 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD55DFCC2C4046B100C32142 /* AppDelegate.swift */; };
 		BD55DFCF2C4046B100C32142 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD55DFCE2C4046B100C32142 /* SceneDelegate.swift */; };
 		BD55DFD12C4046B100C32142 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD55DFD02C4046B100C32142 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 		BD55DFE42C4046B300C32142 /* ARTreckingDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD55DFE32C4046B300C32142 /* ARTreckingDemoTests.swift */; };
 		BD55DFEE2C4046B300C32142 /* ARTreckingDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD55DFED2C4046B300C32142 /* ARTreckingDemoUITests.swift */; };
 		BD55DFF02C4046B300C32142 /* ARTreckingDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD55DFEF2C4046B300C32142 /* ARTreckingDemoUITestsLaunchTests.swift */; };
+		BD55DFFE2C40471900C32142 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD55DFFD2C40471900C32142 /* ARKit.framework */; };
+		BD6F1BAF2C405A0300366EC9 /* FaceTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6F1BAE2C405A0300366EC9 /* FaceTrackingViewController.swift */; };
+		BD6F1BB12C405B3800366EC9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD6F1BB02C405B3800366EC9 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02947A7A33A6478E575F1F37 /* Pods-ARTreckingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTreckingDemo.release.xcconfig"; path = "Target Support Files/Pods-ARTreckingDemo/Pods-ARTreckingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0C5870F51A1E7F0D4A7E1250 /* Pods-ARTreckingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTreckingDemo.debug.xcconfig"; path = "Target Support Files/Pods-ARTreckingDemo/Pods-ARTreckingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		395477652A111274C7CEFB2F /* Pods-ARTreckingDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTreckingDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-ARTreckingDemoTests/Pods-ARTreckingDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		639C9A1655F06CCB5AB224CC /* Pods_ARTreckingDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARTreckingDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B673BEB4B55E50512CE7158 /* Pods-ARTreckingDemo-ARTreckingDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTreckingDemo-ARTreckingDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-ARTreckingDemo-ARTreckingDemoUITests/Pods-ARTreckingDemo-ARTreckingDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F8132CFB5CE9D9D12C993B3 /* Pods_ARTreckingDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARTreckingDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94C351157F6DDA9A1506D16 /* Pods-ARTreckingDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTreckingDemoTests.release.xcconfig"; path = "Target Support Files/Pods-ARTreckingDemoTests/Pods-ARTreckingDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		BD55DFC92C4046B100C32142 /* ARTreckingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTreckingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD55DFCC2C4046B100C32142 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD55DFCE2C4046B100C32142 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,12 @@
 		BD55DFE92C4046B300C32142 /* ARTreckingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTreckingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD55DFED2C4046B300C32142 /* ARTreckingDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTreckingDemoUITests.swift; sourceTree = "<group>"; };
 		BD55DFEF2C4046B300C32142 /* ARTreckingDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTreckingDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD55DFFD2C40471900C32142 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		BD55DFFF2C40471E00C32142 /* libswiftARKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftARKit.tbd; path = usr/lib/swift/libswiftARKit.tbd; sourceTree = SDKROOT; };
+		BD6F1BAE2C405A0300366EC9 /* FaceTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTrackingViewController.swift; sourceTree = "<group>"; };
+		BD6F1BB02C405B3800366EC9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C7887CF5DA094A600408B393 /* Pods-ARTreckingDemo-ARTreckingDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTreckingDemo-ARTreckingDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-ARTreckingDemo-ARTreckingDemoUITests/Pods-ARTreckingDemo-ARTreckingDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F4637A9C9505EA80A6BB3CB6 /* Pods_ARTreckingDemo_ARTreckingDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARTreckingDemo_ARTreckingDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD55DFFE2C40471900C32142 /* ARKit.framework in Frameworks */,
+				2A51B7144C6500DEE267747B /* Pods_ARTreckingDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97C9E23FCF27A45637597EFD /* Pods_ARTreckingDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77E313A8F90A74E912BF49DC /* Pods_ARTreckingDemo_ARTreckingDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B16B0D69FC03CAED9DE31C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C5870F51A1E7F0D4A7E1250 /* Pods-ARTreckingDemo.debug.xcconfig */,
+				02947A7A33A6478E575F1F37 /* Pods-ARTreckingDemo.release.xcconfig */,
+				7B673BEB4B55E50512CE7158 /* Pods-ARTreckingDemo-ARTreckingDemoUITests.debug.xcconfig */,
+				C7887CF5DA094A600408B393 /* Pods-ARTreckingDemo-ARTreckingDemoUITests.release.xcconfig */,
+				395477652A111274C7CEFB2F /* Pods-ARTreckingDemoTests.debug.xcconfig */,
+				A94C351157F6DDA9A1506D16 /* Pods-ARTreckingDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BD55DFC02C4046B100C32142 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +119,8 @@
 				BD55DFE22C4046B300C32142 /* ARTreckingDemoTests */,
 				BD55DFEC2C4046B300C32142 /* ARTreckingDemoUITests */,
 				BD55DFCA2C4046B100C32142 /* Products */,
+				BD55DFFC2C40471900C32142 /* Frameworks */,
+				0B16B0D69FC03CAED9DE31C0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +141,11 @@
 				BD55DFCE2C4046B100C32142 /* SceneDelegate.swift */,
 				BD55DFD02C4046B100C32142 /* ViewController.swift */,
 				BD55DFD22C4046B100C32142 /* Main.storyboard */,
+				BD6F1BAE2C405A0300366EC9 /* FaceTrackingViewController.swift */,
 				BD55DFD52C4046B300C32142 /* Assets.xcassets */,
 				BD55DFD72C4046B300C32142 /* LaunchScreen.storyboard */,
 				BD55DFDA2C4046B300C32142 /* Info.plist */,
+				BD6F1BB02C405B3800366EC9 /* GoogleService-Info.plist */,
 			);
 			path = ARTreckingDemo;
 			sourceTree = "<group>";
@@ -127,6 +167,18 @@
 			path = ARTreckingDemoUITests;
 			sourceTree = "<group>";
 		};
+		BD55DFFC2C40471900C32142 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD55DFFF2C40471E00C32142 /* libswiftARKit.tbd */,
+				BD55DFFD2C40471900C32142 /* ARKit.framework */,
+				7F8132CFB5CE9D9D12C993B3 /* Pods_ARTreckingDemo.framework */,
+				F4637A9C9505EA80A6BB3CB6 /* Pods_ARTreckingDemo_ARTreckingDemoUITests.framework */,
+				639C9A1655F06CCB5AB224CC /* Pods_ARTreckingDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD55DFF32C4046B300C32142 /* Build configuration list for PBXNativeTarget "ARTreckingDemo" */;
 			buildPhases = (
+				3C6D73EC1A6CEAC042E3AD09 /* [CP] Check Pods Manifest.lock */,
 				BD55DFC52C4046B100C32142 /* Sources */,
 				BD55DFC62C4046B100C32142 /* Frameworks */,
 				BD55DFC72C4046B100C32142 /* Resources */,
+				4242970A5411BD3D89EA8538 /* [CP] Embed Pods Frameworks */,
+				9EFB119604EEDD2B56D90E5E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD55DFF62C4046B300C32142 /* Build configuration list for PBXNativeTarget "ARTreckingDemoTests" */;
 			buildPhases = (
+				678AB22C9ECB5FE39A7A7007 /* [CP] Check Pods Manifest.lock */,
 				BD55DFDB2C4046B300C32142 /* Sources */,
 				BD55DFDC2C4046B300C32142 /* Frameworks */,
 				BD55DFDD2C4046B300C32142 /* Resources */,
@@ -169,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD55DFF92C4046B300C32142 /* Build configuration list for PBXNativeTarget "ARTreckingDemoUITests" */;
 			buildPhases = (
+				89F964A53AEFE509F102CAA3 /* [CP] Check Pods Manifest.lock */,
 				BD55DFE52C4046B300C32142 /* Sources */,
 				BD55DFE62C4046B300C32142 /* Frameworks */,
 				BD55DFE72C4046B300C32142 /* Resources */,
+				C3C546DEE6CC7BEC98CF7EE8 /* [CP] Embed Pods Frameworks */,
+				2FF9051B1779A5E81A9AA2E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD55DFD62C4046B300C32142 /* Assets.xcassets in Resources */,
+				BD6F1BB12C405B3800366EC9 /* GoogleService-Info.plist in Resources */,
 				BD55DFD92C4046B300C32142 /* Base in Resources */,
 				BD55DFD42C4046B100C32142 /* Base in Resources */,
 			);
@@ -253,11 +313,149 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2FF9051B1779A5E81A9AA2E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARTreckingDemo-ARTreckingDemoUITests/Pods-ARTreckingDemo-ARTreckingDemoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARTreckingDemo-ARTreckingDemoUITests/Pods-ARTreckingDemo-ARTreckingDemoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARTreckingDemo-ARTreckingDemoUITests/Pods-ARTreckingDemo-ARTreckingDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C6D73EC1A6CEAC042E3AD09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARTreckingDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4242970A5411BD3D89EA8538 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARTreckingDemo/Pods-ARTreckingDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARTreckingDemo/Pods-ARTreckingDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARTreckingDemo/Pods-ARTreckingDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		678AB22C9ECB5FE39A7A7007 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARTreckingDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89F964A53AEFE509F102CAA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARTreckingDemo-ARTreckingDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EFB119604EEDD2B56D90E5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARTreckingDemo/Pods-ARTreckingDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARTreckingDemo/Pods-ARTreckingDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARTreckingDemo/Pods-ARTreckingDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3C546DEE6CC7BEC98CF7EE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARTreckingDemo-ARTreckingDemoUITests/Pods-ARTreckingDemo-ARTreckingDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARTreckingDemo-ARTreckingDemoUITests/Pods-ARTreckingDemo-ARTreckingDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARTreckingDemo-ARTreckingDemoUITests/Pods-ARTreckingDemo-ARTreckingDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BD55DFC52C4046B100C32142 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6F1BAF2C405A0300366EC9 /* FaceTrackingViewController.swift in Sources */,
 				BD55DFD12C4046B100C32142 /* ViewController.swift in Sources */,
 				BD55DFCD2C4046B100C32142 /* AppDelegate.swift in Sources */,
 				BD55DFCF2C4046B100C32142 /* SceneDelegate.swift in Sources */,
@@ -437,12 +635,14 @@
 		};
 		BD55DFF42C4046B300C32142 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C5870F51A1E7F0D4A7E1250 /* Pods-ARTreckingDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CVRPLSH3AP;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ARTreckingDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -465,12 +665,14 @@
 		};
 		BD55DFF52C4046B300C32142 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02947A7A33A6478E575F1F37 /* Pods-ARTreckingDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CVRPLSH3AP;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ARTreckingDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -493,6 +695,7 @@
 		};
 		BD55DFF72C4046B300C32142 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 395477652A111274C7CEFB2F /* Pods-ARTreckingDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +716,7 @@
 		};
 		BD55DFF82C4046B300C32142 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A94C351157F6DDA9A1506D16 /* Pods-ARTreckingDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +737,7 @@
 		};
 		BD55DFFA2C4046B300C32142 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B673BEB4B55E50512CE7158 /* Pods-ARTreckingDemo-ARTreckingDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +756,7 @@
 		};
 		BD55DFFB2C4046B300C32142 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7887CF5DA094A600408B393 /* Pods-ARTreckingDemo-ARTreckingDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
